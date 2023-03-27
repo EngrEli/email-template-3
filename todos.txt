@@ -1,0 +1,8 @@
+- footer
+- mobile view for all
+- hover for button
+- product preview mobile "check also + visit website"
+- nav hover effect
+- linkArrow hover effect
+- hero section relo na background
+- Push to github

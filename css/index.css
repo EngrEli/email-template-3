@@ -1,0 +1,174 @@
+html {
+  font-size: 14px;
+}
+
+#wrap {
+  background-color: #F4F4F4;
+  padding: 2rem 2.5rem 1.5rem;
+}
+
+#header {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 8px 8px 0 0;
+  padding: 1.938rem 0 2.063rem 0;
+}
+
+#header h1 {
+  height: 32px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+#nav {
+  background-color: #444444;
+  border-radius: 0 0 8px 8px;
+}
+
+#nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 120px;
+  margin: 0 auto;
+  gap: 5px;
+  padding: 0.625rem 0;
+}
+
+#nav ul li {
+  width: 45px;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.mBackground {
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.01);
+  margin-top: 2rem;
+  padding: 3rem 4.375rem;
+}
+
+.heroSection h2 {
+  font-size: 2.25rem;
+  line-height: 2.723rem;
+}
+
+.heroSection p {
+  color: #515759;
+  line-height: 1.25rem;
+  margin-top: 1rem;
+}
+
+.mTitlePortion {
+  color: #0C1014;
+  font-weight: 700;
+}
+
+.heroSection .linkArrow {
+  margin-top: 27px;
+}
+
+.linkArrow {
+  color: #1890FF;
+  line-height: 1.134rem;
+  font-size: 0.938rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.linkArrow::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  vertical-align: middle;
+  border-left: 2px solid #1890FF;;
+  border-bottom: 2px solid #1890FF;;
+  border-radius: 1px;
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-135deg);
+}
+
+.btnPrimary {
+  background-color: #1890FF;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #1890FF;
+  display: block;
+}
+
+.btnPrimary.main {
+  min-width: 128px;
+  height: 40px;
+  margin-top: 8.188rem;
+  font-size: 1.125rem;
+  line-height: 1.361rem;
+}
+
+.btnPrimary.preview {
+  min-width: 56px;
+  height: 24px;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.productsPreviewContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4.125rem;
+}
+
+.mProductItem {
+  max-width: 168px;
+  min-width: 168px;
+  width: 40%;
+}
+
+.mProductItem .mTitlePortion {
+  margin-top: 2rem;
+  line-height: 1.21rem;
+  font-size: 16px;
+}
+
+.pricePreview {
+  margin-top: 0.25rem;
+  color: #515759;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.displayFlex.spaceBetween {
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 16px;
+  }
+
+  #wrap {
+    width: 640px;
+    max-width: 640px;
+    margin: 50px auto;
+    border-radius: 40px;
+  }
+
+  #nav ul {
+    width: 335px;
+    gap: 0;
+  }
+}
